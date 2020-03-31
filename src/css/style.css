@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Exo-thin';
+  src: url('../fonts/Exo-Thin.otf') format('opentype');
+}
+.Exo-thin {
+  font-family: 'Exo-thin';
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo-regular';
+  src: url('../fonts/Exo-Regular.otf') format('opentype');
+}
+.Exo-regular {
+  font-family: 'Exo-regular';
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo-medium';
+  src: url('../fonts/Exo-Medium.otf') format('opentype');
+}
+.Exo-medium {
+  font-family: 'Exo-medium';
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo-italic';
+  src: url('../fonts/Exo-Regular.otf') format('opentype');
+}
+.Exo-italic {
+  font-family: 'Exo-italic';
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.ttf') format('opentype');
+}
+.Lato {
+  font-family: 'Lato';
+  font-weight: normal;
+  font-style: normal;
+}
+.OUTR {
+  outline: 2px solid red;
+}
+.OUTG {
+  outline: 2px solid green;
+}
+.OUTB {
+  outline: 2px solid blue;
+}
+.OUTY {
+  outline: 2px solid yellow;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background-color: yellow;
+}
+.header {
+  background-color: blue;
+}
