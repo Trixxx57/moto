@@ -1,45 +1,27 @@
 @font-face {
-  font-family: 'Exo-thin';
-  src: url('../fonts/Exo-Thin.otf') format('opentype');
+  font-family: 'Osvald-medium';
+  src: url('../fonts/Oswald-Medium.ttf') format('opentype');
 }
-.Exo-thin {
-  font-family: 'Exo-thin';
-  font-weight: lighter;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Exo-regular';
-  src: url('../fonts/Exo-Regular.otf') format('opentype');
-}
-.Exo-regular {
-  font-family: 'Exo-regular';
+.Osvald {
+  font-family: 'Osvald-medium';
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Exo-medium';
-  src: url('../fonts/Exo-Medium.otf') format('opentype');
+  font-family: 'SourceSansPro';
+  src: url('../fonts/SourceSansPro-Regular.otf') format('opentype');
 }
-.Exo-medium {
-  font-family: 'Exo-medium';
-  font-weight: bolder;
+.Sans {
+  font-family: 'Lato';
+  font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Exo-italic';
-  src: url('../fonts/Exo-Regular.otf') format('opentype');
+  font-family: 'Oswald-Reg';
+  src: url('../fonts/Oswald-Regular.ttf') format('opentype');
 }
-.Exo-italic {
-  font-family: 'Exo-italic';
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url('../fonts/Lato-Regular.ttf') format('opentype');
-}
-.Lato {
-  font-family: 'Lato';
+.Oswald-Reg {
+  font-family: 'OswaldReg';
   font-weight: normal;
   font-style: normal;
 }
@@ -61,8 +43,7 @@
 }
 body {
   width: 100%;
-  background-color: yellow;
 }
 .header {
-  background-color: blue;
+  min-height: 100px;
 }
