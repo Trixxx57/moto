@@ -7,6 +7,7 @@
   align-items: stretch;
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
 }
 
 .header__logo {
@@ -21,18 +22,20 @@
   align-items: center;
   justify-content: space-between;
   margin-right: auto;
-  .Osvald;
-  text-transform: uppercase;
-  color: @black;
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  li {
+  a {
     position: relative;
+    display: block;
     padding-top: 42px;
     padding-bottom: 42px;
     padding-left: 40px;
     padding-right: 40px;
+    .Osvald;
+    text-transform: uppercase;
+    color: @black;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
     &:hover::after, &:first-child::after {
       content: '';
       position: absolute;
@@ -57,12 +60,20 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 0.02em;
-  li {
+  a {
+    display: block;
     position: relative;
     padding-top: 44px;
     padding-bottom: 44px;
     padding-left: 16px;
     padding-right: 16px;
+    .Osvald;
+    text-transform: uppercase;
+    color: @black;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
     &:hover::after {
       content: '';
       position: absolute;
@@ -83,7 +94,7 @@
   justify-content: space-between;
   background-image: url('../image/header-search.png');
   background-repeat: no-repeat;
-  background-position-x: 16px;
+  background-position-x: 36px;
   background-position-y: 38px;
   cursor: pointer;
 }
