@@ -188,7 +188,8 @@ ul {
 }
 .slider {
   width: 100%;
-  min-height: 670px;
+  min-height: 650px;
+  margin-bottom: 100px;
 }
 .slider__pict {
   display: -webkit-box;
@@ -236,7 +237,7 @@ ul {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  min-height: 600px;
+  min-height: 500px;
   width: 1160px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -466,6 +467,107 @@ ul {
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+}
+.charac input {
+  position: absolute;
+  z-index: 5;
+  left: -2000px;
+  top: 0;
+}
+.charac__labels {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.charac__labels::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 6px;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+.charac__labels label {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background-color: #c8c8c8;
+  border-radius: 7px;
+  outline: 1px solid green;
+}
+.charac__labels label::before {
+  position: absolute;
+  content: "";
+  top: -64px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: 1px solid green;
+}
+.charac__labels label:nth-of-type(1)::before {
+  background-image: url("../image/key features-grey.png");
+}
+.charac__labels label:nth-of-type(2)::before {
+  background-image: url("../image/power-grey.png");
+}
+.charac__labels label:nth-of-type(3)::before {
+  background-image: url("../image/specs-grey.png");
+}
+.charac__labels label:nth-of-type(4)::before {
+  background-image: url("../image/speed-grey.png");
+}
+.charac__labels label:nth-of-type(5)::before {
+  background-image: url("../image/life-grey.png");
+}
+.charac__labels label::after {
+  position: absolute;
+  content: "";
+  font-family: 'Osvald-medium';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12.5px;
+  line-height: 78px;
+  color: #c8c8c8;
+  width: 100px;
+  height: 78px;
+  text-align: center;
+  text-transform: uppercase;
+  top: -56px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  outline: 1px solid green;
+}
+.charac__labels label:nth-of-type(1)::after {
+  content: "key features";
+}
+.charac__labels label:nth-of-type(2)::after {
+  content: "power";
+}
+.charac__labels label:nth-of-type(3)::after {
+  content: "specs";
+}
+.charac__labels label:nth-of-type(4)::after {
+  content: "speed";
+}
+.charac__labels label:nth-of-type(5)::after {
+  content: "life";
 }
 .charac__ul--1 {
   position: relative;
