@@ -741,3 +741,112 @@ ul {
   background-color: brown;
   background-image: url("../image/collage-5.png");
 }
+.view360 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 600px;
+  width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.view360__moto {
+  width: 840px;
+  height: 559px;
+  background-image: url('../image/photo-moto.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.view360__a {
+  display: block;
+  width: 100px;
+  height: 19px;
+  background-image: url('../image/360-view.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1000px;
+  min-height: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.partners a {
+  font-family: 'Osvald-medium';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #a3a3a4;
+  text-decoration: none;
+}
+.equipment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.equipment a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.equipment a img {
+  margin-bottom: auto;
+}
+.equipment a p:first-of-type {
+  font-family: 'Osvald-medium';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+}
+.equipment a p:last-of-type {
+  font-family: 'Osvald-medium';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #a3a3a4;
+}
